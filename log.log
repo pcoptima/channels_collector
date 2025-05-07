@@ -110,3 +110,123 @@
 2025-05-07 14:46:21,833 - INFO - Запрос списка каналов
 2025-05-07 14:46:21,837 - INFO - Список каналов отправлен
 2025-05-07 14:46:22,769 - INFO - Update id=752632546 is handled. Duration 936 ms by bot id=7676896339
+2025-05-07 14:49:36,304 - INFO - Update id=752632547 is not handled. Duration 0 ms by bot id=7676896339
+2025-05-07 15:01:15,097 - WARNING - Received SIGINT signal
+2025-05-07 15:01:15,098 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:01:15,098 - INFO - Polling stopped
+2025-05-07 15:01:28,198 - INFO - Создание таблиц в базе данных
+2025-05-07 15:01:28,201 - INFO - Start polling
+2025-05-07 15:01:29,245 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:01:44,672 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:01:44,673 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:01:44,673 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-07 15:01:44,673 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:01:44,674 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:01:44,674 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-07 15:01:45,550 - INFO - Update id=752632549 is handled. Duration 878 ms by bot id=7676896339
+2025-05-07 15:01:45,573 - INFO - Update id=752632548 is handled. Duration 901 ms by bot id=7676896339
+2025-05-07 15:05:31,538 - WARNING - Received SIGINT signal
+2025-05-07 15:05:31,539 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:05:31,539 - INFO - Polling stopped
+2025-05-07 15:05:36,742 - INFO - Создание таблиц в базе данных
+2025-05-07 15:05:36,745 - INFO - Start polling
+2025-05-07 15:05:37,781 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:06:14,720 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:06:14,720 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:06:14,729 - INFO - Канал сохранён: https://t.me/medvedevvesti/20834
+2025-05-07 15:06:15,618 - INFO - Update id=752632550 is handled. Duration 898 ms by bot id=7676896339
+2025-05-07 15:06:42,657 - INFO - Запрос списка каналов
+2025-05-07 15:06:42,660 - INFO - Список каналов отправлен
+2025-05-07 15:06:43,050 - INFO - Update id=752632551 is handled. Duration 394 ms by bot id=7676896339
+2025-05-07 15:15:40,060 - WARNING - Received SIGINT signal
+2025-05-07 15:15:40,061 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:15:40,061 - INFO - Polling stopped
+2025-05-07 15:15:46,107 - INFO - Создание таблиц в базе данных
+2025-05-07 15:15:46,114 - INFO - Start polling
+2025-05-07 15:15:47,424 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:16:17,119 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:16:17,119 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:16:17,119 - INFO - Update id=752632552 is not handled. Duration 0 ms by bot id=7676896339
+2025-05-07 15:16:17,119 - ERROR - Cause exception while process update id=752632552 by bot id=7676896339
+UnboundLocalError: cannot access local variable 'channel_url' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/Документы/Личные/Обучение/channels_collector/main.py", line 110, in handle_forwarded_from_bot
+    if channel_url.count("/") >= 4:
+       ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'channel_url' where it is not associated with a value
+2025-05-07 15:18:11,891 - WARNING - Received SIGINT signal
+2025-05-07 15:18:11,892 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:18:11,892 - INFO - Polling stopped
+2025-05-07 15:18:29,294 - INFO - Создание таблиц в базе данных
+2025-05-07 15:18:29,298 - INFO - Start polling
+2025-05-07 15:18:30,332 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:18:40,608 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:18:40,609 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:18:40,617 - INFO - Канал сохранён: https://t.me/vzglyad_ru
+2025-05-07 15:18:41,509 - INFO - Update id=752632553 is handled. Duration 901 ms by bot id=7676896339
+2025-05-07 15:19:22,931 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:19:22,932 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:19:22,932 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-07 15:19:23,261 - INFO - Update id=752632554 is handled. Duration 330 ms by bot id=7676896339
+2025-05-07 15:39:02,877 - WARNING - Received SIGINT signal
+2025-05-07 15:39:02,878 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:39:02,878 - INFO - Polling stopped
+2025-05-07 15:39:09,489 - INFO - Создание таблиц в базе данных
+2025-05-07 15:39:09,493 - INFO - Start polling
+2025-05-07 15:39:10,729 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:39:22,019 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:39:22,020 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:39:22,020 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-07 15:39:22,892 - INFO - Update id=752632555 is handled. Duration 873 ms by bot id=7676896339
+2025-05-07 15:45:51,081 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-07 15:45:51,081 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-07 15:46:02,227 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-07 15:52:38,009 - WARNING - Received SIGINT signal
+2025-05-07 15:52:38,010 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:52:38,010 - INFO - Polling stopped
+2025-05-07 15:52:43,610 - INFO - Создание таблиц в базе данных
+2025-05-07 15:52:43,613 - INFO - Start polling
+2025-05-07 15:52:43,809 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 15:52:50,330 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-07 15:52:50,330 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-07 15:52:50,330 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-07 15:52:50,528 - INFO - Update id=752632556 is handled. Duration 198 ms by bot id=7676896339

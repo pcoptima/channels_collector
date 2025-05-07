@@ -95,6 +95,42 @@ async def handle_forwarded_message(message: Message) -> None:
             await message.reply(f"❌ Ошибка: {str(e)}")
 
 
+@dp.message(F.forward_from)
+async def handle_forwarded_from_bot(message: Message) -> None:
+    logging.info("Обработка пересланного сообщения от другого бота")
+    if message.forward_from.is_bot:
+        bot_name = message.forward_from.username
+        bot_id = message.forward_from.id
+        logging.info(f"Сообщение переслано от бота: {bot_name} (ID: {bot_id})")
+
+        # Извлечение ссылки на канал из текста сообщения
+        if message.entities:
+            for entity in message.entities:
+                if entity.type == "text_link" and entity.url.startswith("https://t.me/"):
+                    channel_url = entity.url
+                    async with async_session() as session:
+                        try:
+                            session.add(Channel(
+                                channel_id=bot_id,  # Используем ID бота как временный идентификатор
+                                channel_url=channel_url
+                            ))
+                            await session.commit()
+                            logging.info(f"Канал сохранён: {channel_url}")
+                            await message.reply(f"✅ Канал сохранён: {channel_url}")
+                        except Exception as e:
+                            logging.error(
+                                f"Ошибка при сохранении канала: {str(e)}")
+                            await session.rollback()
+                            await message.reply(f"❌ Ошибка: {str(e)}")
+                    return
+
+        logging.warning("Не удалось извлечь ссылку на канал из сообщения")
+        await message.reply("❌ Не удалось извлечь ссылку на канал из сообщения.")
+    else:
+        logging.warning("Сообщение не от бота")
+        await message.reply("❌ Это сообщение не от бота.")
+
+
 @dp.message(Command("channels"))
 async def send_channels_list(message: Message) -> None:
     logging.info("Запрос списка каналов")
