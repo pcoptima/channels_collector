@@ -7,6 +7,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram.enums import ParseMode
+from aiogram.client.bot import DefaultBotProperties
 from sqlalchemy import BigInteger, String, DateTime, select, distinct
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
@@ -33,11 +34,11 @@ class Channel(Base):
     __tablename__ = "channels"
 
     id: Mapped[int] = mapped_column(
-        BigInteger, primary_key=True, autoincrement=True)
+        primary_key=True, autoincrement=True, nullable=False)
     channel_id: Mapped[int] = mapped_column(BigInteger, nullable=False)
     channel_url: Mapped[str] = mapped_column(String, nullable=False)
     timestamp: Mapped[datetime] = mapped_column(
-        DateTime, default=datetime.utcnow)
+        DateTime, default=datetime.utcnow, nullable=False)
 
 
 engine = create_async_engine("sqlite+aiosqlite:///channels.db")
@@ -49,7 +50,7 @@ async def create_tables() -> None:
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
 
-bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
+bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
 
@@ -106,7 +107,7 @@ async def send_channels_list(message: Message) -> None:
             if channels:
                 response = "📋 Список каналов:\n" + "\n".join(channels)
                 logging.info("Список каналов отправлен")
-                await message.reply(response)
+                await message.answer(response)
             else:
                 logging.info("Нет сохранённых каналов")
                 await message.reply("ℹ️ Нет сохранённых каналов.")

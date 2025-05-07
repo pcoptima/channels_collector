@@ -1,0 +1,112 @@
+2025-05-07 13:55:18,616 - INFO - Создание таблиц в базе данных
+2025-05-07 13:55:18,625 - INFO - Start polling
+2025-05-07 13:55:21,793 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 13:56:10,897 - INFO - Обработка пересланного сообщения
+2025-05-07 13:56:10,900 - INFO - Обработка пересланного сообщения
+2025-05-07 13:56:10,902 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 10:56:10.900594')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 13:56:10,904 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 10:56:10.902617')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 13:56:11,102 - INFO - Update id=752632529 is handled. Duration 206 ms by bot id=7676896339
+2025-05-07 13:56:11,131 - INFO - Update id=752632530 is handled. Duration 235 ms by bot id=7676896339
+2025-05-07 13:58:32,086 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-07 13:58:32,086 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-07 13:58:43,929 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-07 13:59:20,501 - WARNING - Received SIGINT signal
+2025-05-07 13:59:20,502 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 13:59:20,502 - INFO - Polling stopped
+2025-05-07 13:59:30,052 - INFO - Создание таблиц в базе данных
+2025-05-07 13:59:30,065 - INFO - Start polling
+2025-05-07 13:59:31,105 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 13:59:53,713 - INFO - Обработка пересланного сообщения
+2025-05-07 13:59:53,716 - INFO - Обработка пересланного сообщения
+2025-05-07 13:59:53,717 - INFO - Обработка пересланного сообщения
+2025-05-07 13:59:53,718 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 10:59:53.716437')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 13:59:53,721 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 10:59:53.719267')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 13:59:53,722 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 10:59:53.719127')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 13:59:54,599 - INFO - Update id=752632533 is handled. Duration 885 ms by bot id=7676896339
+2025-05-07 13:59:54,629 - INFO - Update id=752632532 is handled. Duration 916 ms by bot id=7676896339
+2025-05-07 13:59:54,667 - INFO - Update id=752632531 is handled. Duration 954 ms by bot id=7676896339
+2025-05-07 14:04:48,561 - WARNING - Received SIGINT signal
+2025-05-07 14:04:48,562 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:04:48,562 - INFO - Polling stopped
+2025-05-07 14:05:02,544 - INFO - Создание таблиц в базе данных
+2025-05-07 14:05:02,553 - INFO - Start polling
+2025-05-07 14:05:03,861 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:05:25,430 - INFO - Обработка пересланного сообщения
+2025-05-07 14:05:25,434 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 11:05:25.434002')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 14:05:26,428 - INFO - Update id=752632534 is handled. Duration 997 ms by bot id=7676896339
+2025-05-07 14:09:00,801 - WARNING - Received SIGINT signal
+2025-05-07 14:09:00,803 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:09:00,803 - INFO - Polling stopped
+2025-05-07 14:09:06,126 - INFO - Создание таблиц в базе данных
+2025-05-07 14:09:06,135 - INFO - Start polling
+2025-05-07 14:09:07,523 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:09:30,807 - INFO - Обработка пересланного сообщения
+2025-05-07 14:09:30,812 - INFO - Обработка пересланного сообщения
+2025-05-07 14:09:30,814 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 11:09:30.811937')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 14:09:30,816 - ERROR - Ошибка при сохранении канала: (sqlite3.IntegrityError) NOT NULL constraint failed: channels.id
+[SQL: INSERT INTO channels (channel_id, channel_url, timestamp) VALUES (?, ?, ?)]
+[parameters: (-1001478765631, 'https://t.me/yurasumy', '2025-05-07 11:09:30.814647')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-07 14:09:31,692 - INFO - Update id=752632535 is handled. Duration 886 ms by bot id=7676896339
+2025-05-07 14:09:31,724 - INFO - Update id=752632536 is handled. Duration 917 ms by bot id=7676896339
+2025-05-07 14:11:42,817 - WARNING - Received SIGINT signal
+2025-05-07 14:11:42,817 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:11:42,817 - INFO - Polling stopped
+2025-05-07 14:11:47,495 - INFO - Создание таблиц в базе данных
+2025-05-07 14:11:47,505 - INFO - Start polling
+2025-05-07 14:11:48,535 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:12:06,994 - INFO - Обработка пересланного сообщения
+2025-05-07 14:12:07,004 - INFO - Канал сохранён: https://t.me/Mikle1On
+2025-05-07 14:12:07,916 - INFO - Update id=752632537 is handled. Duration 921 ms by bot id=7676896339
+2025-05-07 14:16:27,175 - INFO - Update id=752632538 is not handled. Duration 0 ms by bot id=7676896339
+2025-05-07 14:19:02,047 - INFO - Обработка пересланного сообщения
+2025-05-07 14:19:02,063 - INFO - Канал сохранён: https://t.me/my_thinks
+2025-05-07 14:19:02,459 - INFO - Update id=752632539 is handled. Duration 413 ms by bot id=7676896339
+2025-05-07 14:19:53,396 - INFO - Обработка пересланного сообщения
+2025-05-07 14:19:53,401 - INFO - Канал сохранён: https://t.me/kukuffka
+2025-05-07 14:19:53,722 - INFO - Update id=752632540 is handled. Duration 326 ms by bot id=7676896339
+2025-05-07 14:27:58,918 - INFO - Обработка пересланного сообщения
+2025-05-07 14:27:58,925 - INFO - Канал сохранён: https://t.me/yurasumy
+2025-05-07 14:27:59,243 - INFO - Update id=752632541 is handled. Duration 325 ms by bot id=7676896339
+2025-05-07 14:29:04,831 - INFO - Запрос списка каналов
+2025-05-07 14:29:04,835 - INFO - Список каналов отправлен
+2025-05-07 14:29:05,182 - INFO - Update id=752632542 is handled. Duration 352 ms by bot id=7676896339
+2025-05-07 14:32:10,216 - INFO - Обработка пересланного сообщения
+2025-05-07 14:32:10,223 - INFO - Канал сохранён: https://t.me/infantmilitario
+2025-05-07 14:32:10,532 - INFO - Update id=752632543 is handled. Duration 316 ms by bot id=7676896339
+2025-05-07 14:38:40,002 - INFO - Обработка пересланного сообщения
+2025-05-07 14:38:40,008 - INFO - Канал сохранён: https://t.me/Mikle1On
+2025-05-07 14:38:40,397 - INFO - Update id=752632544 is handled. Duration 395 ms by bot id=7676896339
+2025-05-07 14:38:52,540 - INFO - Запрос списка каналов
+2025-05-07 14:38:52,543 - INFO - Список каналов отправлен
+2025-05-07 14:38:52,853 - INFO - Update id=752632545 is handled. Duration 312 ms by bot id=7676896339
+2025-05-07 14:46:04,904 - WARNING - Received SIGINT signal
+2025-05-07 14:46:04,904 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:46:04,904 - INFO - Polling stopped
+2025-05-07 14:46:10,535 - INFO - Создание таблиц в базе данных
+2025-05-07 14:46:10,539 - INFO - Start polling
+2025-05-07 14:46:11,575 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-07 14:46:21,833 - INFO - Запрос списка каналов
+2025-05-07 14:46:21,837 - INFO - Список каналов отправлен
+2025-05-07 14:46:22,769 - INFO - Update id=752632546 is handled. Duration 936 ms by bot id=7676896339
