@@ -1,7 +1,7 @@
 import os
 import logging
 from datetime import datetime
-from typing import Optional
+from typing import Optional, Tuple, List
 
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
@@ -12,18 +12,17 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from dotenv import load_dotenv
 
-# Загрузка переменных окружения
+# Настройка логирования
+logging.basicConfig(
+    filename='log.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
 load_dotenv()
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
-# Настройка логирования
-logging.basicConfig(
-    filename="log.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
-
-# Инициализация асинхронной БД (SQLite)
+# Асинхронная БД
 
 
 class Base(DeclarativeBase):
@@ -33,55 +32,71 @@ class Base(DeclarativeBase):
 class Channel(Base):
     __tablename__ = "channels"
 
-    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    id: Mapped[int] = mapped_column(
+        BigInteger, primary_key=True, autoincrement=True)
     channel_id: Mapped[int] = mapped_column(BigInteger, nullable=False)
     channel_url: Mapped[str] = mapped_column(String, nullable=False)
     timestamp: Mapped[datetime] = mapped_column(
         DateTime, default=datetime.utcnow)
 
 
-# Асинхронный движок и сессия
 engine = create_async_engine("sqlite+aiosqlite:///channels.db")
 async_session = async_sessionmaker(engine, expire_on_commit=False)
 
-# Создание таблиц (асинхронно)
 
-
-async def create_tables():
+async def create_tables() -> None:
+    logging.info("Создание таблиц в базе данных")
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
 
-# Инициализация бота и диспетчера
 bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
-# Обработка пересланных сообщений
+
+def get_original_channel(message: Message) -> Optional[Tuple[int, str]]:
+    """Рекурсивно ищет первоначальный канал в цепочке пересылок."""
+    if message.forward_from_chat:
+        channel = message.forward_from_chat
+        channel_url = f"https://t.me/{channel.username}" if channel.username else f"chat_id:{channel.id}"
+        return (channel.id, channel_url)
+
+    if message.forward_from_message_id and message.forward_from:
+        # Если сообщение переслано из другого сообщения (например, из группы в канал, потом в бота)
+        # В Aiogram нет прямого доступа к исходному сообщению, поэтому берём только текущий пересланный чат
+        return None  # Можно добавить дополнительную логику через API Telegram
+
+    return None
 
 
 @dp.message(F.forward_from_chat)
-async def handle_forwarded_message(message: Message):
-    chat = message.forward_from_chat
-    channel_url = f"https://t.me/{chat.username}" if chat.username else f"chat_id:{chat.id}"
+async def handle_forwarded_message(message: Message) -> None:
+    logging.info("Обработка пересланного сообщения")
+    original_channel = get_original_channel(message)
+    if not original_channel:
+        logging.warning("Не удалось определить исходный канал")
+        await message.reply("❌ Не удалось определить исходный канал.")
+        return
+
+    channel_id, channel_url = original_channel
 
     async with async_session() as session:
         try:
             session.add(Channel(
-                channel_id=chat.id,
+                channel_id=channel_id,
                 channel_url=channel_url
             ))
             await session.commit()
             logging.info(f"Канал сохранён: {channel_url}")
             await message.reply(f"✅ Канал сохранён: {channel_url}")
         except Exception as e:
-            await session.rollback()
             logging.error(f"Ошибка при сохранении канала: {str(e)}")
+            await session.rollback()
             await message.reply(f"❌ Ошибка: {str(e)}")
-
-# Обработка команды /channels
 
 
 @dp.message(Command("channels"))
-async def send_channels_list(message: Message):
+async def send_channels_list(message: Message) -> None:
+    logging.info("Запрос списка каналов")
     async with async_session() as session:
         try:
             result = await session.execute(
@@ -90,20 +105,18 @@ async def send_channels_list(message: Message):
 
             if channels:
                 response = "📋 Список каналов:\n" + "\n".join(channels)
-                logging.info("Список каналов отправлен.")
+                logging.info("Список каналов отправлен")
                 await message.reply(response)
             else:
-                logging.info("Нет сохранённых каналов.")
+                logging.info("Нет сохранённых каналов")
                 await message.reply("ℹ️ Нет сохранённых каналов.")
         except Exception as e:
-            logging.error(f"Ошибка при получении списка каналов: {str(e)}")
+            logging.error(f"Ошибка при запросе списка каналов: {str(e)}")
             await message.reply(f"❌ Ошибка: {str(e)}")
 
-# Запуск бота
 
-
-async def main():
-    await create_tables()  # Создаём таблицы при старте
+async def main() -> None:
+    await create_tables()
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
