@@ -128,7 +128,8 @@ async def handle_forwarded_from_bot(message: Message) -> None:
             for entity in message.entities:
                 if entity.type == "text_link" and entity.url.startswith("https://t.me/"):
                     channel_url = entity.url
-                    channel_name = await fetch_channel_name(channel_url)  # Получаем название канала
+                    # Получаем название канала
+                    channel_name = await fetch_channel_name(channel_url)
                     async with async_session() as session:
                         try:
                             session.add(Channel(
@@ -137,7 +138,8 @@ async def handle_forwarded_from_bot(message: Message) -> None:
                                 channel_name=channel_name
                             ))
                             await session.commit()
-                            logging.info(f"Канал сохранён: {channel_url} ({channel_name})")
+                            logging.info(
+                                f"Канал сохранён: {channel_url} ({channel_name})")
                             await message.reply(f"✅ Канал сохранён: {channel_url} ({channel_name})")
                         except Exception as e:
                             logging.error(
@@ -155,7 +157,7 @@ async def handle_forwarded_from_bot(message: Message) -> None:
 
 @dp.message(Command("channels"))
 async def send_channels_list(message: Message) -> None:
-    logging.info("Запрос списка каналов")
+    logging.info("Запрос списка url каналов")
     async with async_session() as session:
         try:
             result = await session.execute(
@@ -163,14 +165,36 @@ async def send_channels_list(message: Message) -> None:
             channels = result.scalars().all()
 
             if channels:
-                response = "📋 Список каналов:\n" + "\n".join(channels)
-                logging.info("Список каналов отправлен")
+                response = "📋 Список url каналов:\n" + "\n".join(channels)
+                logging.info("Список url каналов отправлен")
                 await message.answer(response)
             else:
                 logging.info("Нет сохранённых каналов")
                 await message.reply("ℹ️ Нет сохранённых каналов.")
         except Exception as e:
-            logging.error(f"Ошибка при запросе списка каналов: {str(e)}")
+            logging.error(f"Ошибка при запросе списка url каналов: {str(e)}")
+            await message.reply(f"❌ Ошибка: {str(e)}")
+
+
+@dp.message(Command("name_channels"))
+async def send_channels_list(message: Message) -> None:
+    logging.info("Запрос списка названий каналов")
+    async with async_session() as session:
+        try:
+            result = await session.execute(
+                select(distinct(Channel.channel_name)))
+            channels = result.scalars().all()
+
+            if channels:
+                response = "📋 Список названий каналов:\n" + "\n".join(channels)
+                logging.info("Список названий каналов отправлен")
+                await message.answer(response)
+            else:
+                logging.info("Нет сохранённых каналов")
+                await message.reply("ℹ️ Нет сохранённых каналов.")
+        except Exception as e:
+            logging.error(
+                f"Ошибка при запросе списка названий каналов: {str(e)}")
             await message.reply(f"❌ Ошибка: {str(e)}")
 
 
