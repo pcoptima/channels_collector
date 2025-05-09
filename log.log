@@ -230,3 +230,206 @@ UnboundLocalError: cannot access local variable 'channel_url' where it is not as
 2025-05-07 15:52:50,330 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
 2025-05-07 15:52:50,330 - WARNING - Не удалось извлечь ссылку на канал из сообщения
 2025-05-07 15:52:50,528 - INFO - Update id=752632556 is handled. Duration 198 ms by bot id=7676896339
+2025-05-09 18:21:02,782 - INFO - Создание таблиц в базе данных
+2025-05-09 18:21:02,793 - INFO - Start polling
+2025-05-09 18:21:02,985 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 18:22:45,770 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 18:22:45,775 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 18:22:45,775 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-09 18:22:46,236 - INFO - Update id=752632575 is handled. Duration 474 ms by bot id=7676896339
+2025-05-09 21:20:11,696 - INFO - Создание таблиц в базе данных
+2025-05-09 21:20:11,701 - INFO - Start polling
+2025-05-09 21:20:12,907 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 21:21:05,066 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:21:05,066 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:21:05,067 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:21:07,756 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:23:02,470 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-09 21:23:02,470 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-09 21:23:19,767 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-09 21:23:19,768 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:23:19,772 - ERROR - Ошибка при получении названия канала: Cannot find any entity corresponding to "https://t.me/common_sen/606"
+2025-05-09 21:23:19,795 - INFO - Канал сохранён: https://t.me/common_sen/606 (Неизвестно)
+2025-05-09 21:23:19,797 - ERROR - Ошибка при сохранении канала: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-09 21:23:20,688 - INFO - Update id=752632576 is not handled. Duration 135625 ms by bot id=7676896339
+2025-05-09 21:23:20,689 - ERROR - Cause exception while process update id=752632576 by bot id=7676896339
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "class" at byte offset 52
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 168, in handle_forwarded_from_bot
+    print(message.model_dump_json(
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 175, in handle_forwarded_from_bot
+    await message.reply(f"❌ Ошибка: {str(e)}")
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "class" at byte offset 52
+2025-05-09 21:23:29,839 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-09 21:23:41,668 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:23:41,669 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:23:41,672 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:23:42,006 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:23:42,620 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-09 21:23:42,621 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:23:42,631 - ERROR - Ошибка при получении названия канала: Cannot find any entity corresponding to "https://t.me/common_sen/606"
+2025-05-09 21:23:42,660 - INFO - Канал сохранён: https://t.me/common_sen/606 (Неизвестно)
+2025-05-09 21:23:42,660 - ERROR - Ошибка при сохранении канала: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-09 21:23:42,965 - INFO - Update id=752632577 is not handled. Duration 1300 ms by bot id=7676896339
+2025-05-09 21:23:42,965 - ERROR - Cause exception while process update id=752632577 by bot id=7676896339
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "class" at byte offset 52
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 168, in handle_forwarded_from_bot
+    print(message.model_dump_json(
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 175, in handle_forwarded_from_bot
+    await message.reply(f"❌ Ошибка: {str(e)}")
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "class" at byte offset 52
+2025-05-09 21:24:07,111 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:24:07,111 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:24:07,112 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:24:07,410 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:24:08,024 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-09 21:24:08,025 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:24:08,032 - ERROR - Ошибка при получении названия канала: Cannot find any entity corresponding to "https://t.me/vzglyad_ru/120470"
+2025-05-09 21:24:08,047 - INFO - Канал сохранён: https://t.me/vzglyad_ru/120470 (Неизвестно)
+2025-05-09 21:24:08,388 - INFO - Update id=752632578 is handled. Duration 1279 ms by bot id=7676896339
+2025-05-09 21:24:34,108 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:24:34,109 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:24:34,109 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:24:34,510 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:24:35,175 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-09 21:24:35,177 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:24:35,188 - ERROR - Ошибка при получении названия канала: Cannot find any entity corresponding to "https://t.me/voenkorkotenok/64125"
+2025-05-09 21:24:35,216 - INFO - Канал сохранён: https://t.me/voenkorkotenok/64125 (Неизвестно)
+2025-05-09 21:24:35,821 - INFO - Update id=752632579 is handled. Duration 1713 ms by bot id=7676896339
+2025-05-09 21:24:53,266 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:24:53,266 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:24:53,266 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:24:53,550 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:24:54,181 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-09 21:24:54,183 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:24:54,190 - ERROR - Ошибка при получении названия канала: Cannot find any entity corresponding to "https://t.me/readovkanews/96145"
+2025-05-09 21:24:54,225 - INFO - Канал сохранён: https://t.me/readovkanews/96145 (Неизвестно)
+2025-05-09 21:24:55,006 - INFO - Update id=752632580 is handled. Duration 1742 ms by bot id=7676896339
+2025-05-09 21:25:33,922 - INFO - Запрос списка названий каналов
+2025-05-09 21:25:33,928 - INFO - Список названий каналов отправлен
+2025-05-09 21:25:34,344 - INFO - Update id=752632581 is handled. Duration 422 ms by bot id=7676896339
