@@ -12,6 +12,7 @@ from sqlalchemy import BigInteger, String, DateTime, select, distinct
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from dotenv import load_dotenv
+from telethon import TelegramClient
 
 # Настройка логирования
 logging.basicConfig(
@@ -22,6 +23,11 @@ logging.basicConfig(
 
 load_dotenv()
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
+# Инициализация Telethon клиента
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+telethon_client = TelegramClient("channel_fetcher", API_ID, API_HASH)
 
 # Асинхронная БД
 
@@ -37,6 +43,7 @@ class Channel(Base):
         primary_key=True, autoincrement=True, nullable=False)
     channel_id: Mapped[int] = mapped_column(BigInteger, nullable=False)
     channel_url: Mapped[str] = mapped_column(String, nullable=False)
+    channel_name: Mapped[str] = mapped_column(String, nullable=False)
     timestamp: Mapped[datetime] = mapped_column(
         DateTime, default=datetime.utcnow, nullable=False)
 
@@ -69,6 +76,17 @@ def get_original_channel(message: Message) -> Optional[Tuple[int, str]]:
     return None
 
 
+async def fetch_channel_name(channel_url: str) -> str:
+    """Получает название канала по его URL с использованием Telethon."""
+    try:
+        async with telethon_client:
+            entity = await telethon_client.get_entity(channel_url)
+            return entity.title if hasattr(entity, 'title') else "Неизвестно"
+    except Exception as e:
+        logging.error(f"Ошибка при получении названия канала: {str(e)}")
+        return "Неизвестно"
+
+
 @dp.message(F.forward_from_chat)
 async def handle_forwarded_message(message: Message) -> None:
     logging.info("Обработка пересланного сообщения")
@@ -79,16 +97,18 @@ async def handle_forwarded_message(message: Message) -> None:
         return
 
     channel_id, channel_url = original_channel
+    channel_name = message.forward_from_chat.title if message.forward_from_chat else "Неизвестно"
 
     async with async_session() as session:
         try:
             session.add(Channel(
                 channel_id=channel_id,
-                channel_url=channel_url
+                channel_url=channel_url,
+                channel_name=channel_name
             ))
             await session.commit()
-            logging.info(f"Канал сохранён: {channel_url}")
-            await message.reply(f"✅ Канал сохранён: {channel_url}")
+            logging.info(f"Канал сохранён: {channel_url} ({channel_name})")
+            await message.reply(f"✅ Канал сохранён: {channel_url} ({channel_name})")
         except Exception as e:
             logging.error(f"Ошибка при сохранении канала: {str(e)}")
             await session.rollback()
@@ -108,15 +128,17 @@ async def handle_forwarded_from_bot(message: Message) -> None:
             for entity in message.entities:
                 if entity.type == "text_link" and entity.url.startswith("https://t.me/"):
                     channel_url = entity.url
+                    channel_name = await fetch_channel_name(channel_url)  # Получаем название канала
                     async with async_session() as session:
                         try:
                             session.add(Channel(
                                 channel_id=bot_id,  # Используем ID бота как временный идентификатор
-                                channel_url=channel_url
+                                channel_url=channel_url,
+                                channel_name=channel_name
                             ))
                             await session.commit()
-                            logging.info(f"Канал сохранён: {channel_url}")
-                            await message.reply(f"✅ Канал сохранён: {channel_url}")
+                            logging.info(f"Канал сохранён: {channel_url} ({channel_name})")
+                            await message.reply(f"✅ Канал сохранён: {channel_url} ({channel_name})")
                         except Exception as e:
                             logging.error(
                                 f"Ошибка при сохранении канала: {str(e)}")
