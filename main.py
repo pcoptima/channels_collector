@@ -207,6 +207,12 @@ async def send_channels_list(message: Message) -> None:
             await message.reply(f"❌ Ошибка: {str(e)}")
 
 
+@dp.message(Command("help"))
+async def answer_help(message: Message) -> None:
+    await message.answer('Отправь команду:\n/name_channels - чтобы получить список названий сохраненных каналов\n'
+                         '/channels - чтобы получить список url  сохраненных каналов')
+
+
 async def main() -> None:
     await create_tables()
     await dp.start_polling(bot)

@@ -1843,3 +1843,16 @@ pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unk
 2025-05-10 14:54:42,317 - WARNING - Received SIGINT signal
 2025-05-10 14:54:42,319 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
 2025-05-10 14:54:42,323 - INFO - Polling stopped
+2025-05-10 15:49:06,288 - INFO - Создание таблиц в базе данных
+2025-05-10 15:49:06,292 - INFO - Start polling
+2025-05-10 15:49:06,495 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 15:49:26,630 - INFO - Update id=752632664 is handled. Duration 212 ms by bot id=7676896339
+2025-05-10 15:49:33,032 - INFO - Запрос списка названий каналов
+2025-05-10 15:49:33,040 - INFO - Список названий каналов отправлен
+2025-05-10 15:49:33,120 - INFO - Update id=752632665 is handled. Duration 88 ms by bot id=7676896339
+2025-05-10 15:49:36,111 - INFO - Запрос списка url каналов
+2025-05-10 15:49:36,116 - INFO - Список url каналов отправлен
+2025-05-10 15:49:36,210 - INFO - Update id=752632666 is handled. Duration 99 ms by bot id=7676896339
+2025-05-10 15:50:08,864 - WARNING - Received SIGINT signal
+2025-05-10 15:50:08,868 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 15:50:08,868 - INFO - Polling stopped
