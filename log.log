@@ -433,3 +433,104 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't
 2025-05-09 21:25:33,922 - INFO - Запрос списка названий каналов
 2025-05-09 21:25:33,928 - INFO - Список названий каналов отправлен
 2025-05-09 21:25:34,344 - INFO - Update id=752632581 is handled. Duration 422 ms by bot id=7676896339
+2025-05-09 21:31:00,790 - WARNING - Received SIGINT signal
+2025-05-09 21:31:00,793 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 21:31:00,793 - INFO - Polling stopped
+2025-05-09 21:31:10,339 - INFO - Создание таблиц в базе данных
+2025-05-09 21:31:10,344 - INFO - Start polling
+2025-05-09 21:31:11,527 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 21:32:10,620 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:32:10,620 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:32:10,621 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:32:10,903 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:35:24,767 - ERROR - Ошибка при получении названия канала: 3 consecutive sign-in attempts failed. Aborting
+2025-05-09 21:35:24,792 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-09 21:35:24,792 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-09 21:35:24,793 - WARNING - Received SIGINT signal
+2025-05-09 21:35:24,794 - WARNING - Received SIGINT signal
+2025-05-09 21:35:24,794 - WARNING - Received SIGINT signal
+2025-05-09 21:35:24,802 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 21:35:24,802 - INFO - Polling stopped
+2025-05-09 21:35:24,818 - INFO - Канал сохранён: https://t.me/+MA0k1Y-VxRI0MTU6 (Неизвестно)
+2025-05-09 21:35:25,055 - INFO - Update id=752632582 is not handled. Duration 194438 ms by bot id=7676896339
+2025-05-09 21:35:33,775 - INFO - Создание таблиц в базе данных
+2025-05-09 21:35:33,780 - INFO - Start polling
+2025-05-09 21:35:34,716 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 21:35:44,966 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:35:44,966 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:35:44,967 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:35:45,250 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-09 21:38:25,810 - ERROR - Ошибка при получении названия канала: 3 consecutive sign-in attempts failed. Aborting
+2025-05-09 21:38:25,828 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-09 21:38:25,828 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-09 21:38:25,828 - WARNING - Received SIGINT signal
+2025-05-09 21:38:25,828 - WARNING - Received SIGINT signal
+2025-05-09 21:38:25,829 - WARNING - Received SIGINT signal
+2025-05-09 21:38:25,834 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 21:38:25,834 - INFO - Polling stopped
+2025-05-09 21:38:25,855 - INFO - Канал сохранён: https://t.me/+MA0k1Y-VxRI0MTU6 (Неизвестно)
+2025-05-09 21:38:26,087 - INFO - Update id=752632583 is not handled. Duration 161122 ms by bot id=7676896339
+2025-05-09 21:38:34,737 - INFO - Создание таблиц в базе данных
+2025-05-09 21:38:34,744 - INFO - Start polling
+2025-05-09 21:38:35,639 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-09 21:38:39,480 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-09 21:38:39,481 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-09 21:38:39,482 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-09 21:38:39,761 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:01:07,330 - ERROR - Ошибка при получении названия канала: 3 consecutive sign-in attempts failed. Aborting
+2025-05-10 12:01:07,353 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-10 12:01:07,354 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-10 12:01:07,355 - WARNING - Received SIGINT signal
+2025-05-10 12:01:07,356 - WARNING - Received SIGINT signal
+2025-05-10 12:01:07,356 - WARNING - Received SIGINT signal
+2025-05-10 12:01:07,364 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:01:07,365 - INFO - Polling stopped
+2025-05-10 12:01:07,389 - INFO - Канал сохранён: https://t.me/+MA0k1Y-VxRI0MTU6 (Неизвестно)
+2025-05-10 12:01:07,619 - INFO - Update id=752632584 is not handled. Duration 129054 ms by bot id=7676896339
+2025-05-10 12:02:06,915 - INFO - Создание таблиц в базе данных
+2025-05-10 12:02:06,919 - INFO - Start polling
+2025-05-10 12:02:07,105 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:02:30,138 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:02:30,139 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:02:30,140 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 12:02:30,193 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:03:03,593 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 12:03:03,595 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:03:03,632 - INFO - Канал сохранён: https://t.me/boris_rozhin/164171 (Colonelcassad)
+2025-05-10 12:03:04,015 - INFO - Update id=752632585 is handled. Duration 33880 ms by bot id=7676896339
+2025-05-10 12:03:51,838 - INFO - Запрос списка названий каналов
+2025-05-10 12:03:51,844 - INFO - Список названий каналов отправлен
+2025-05-10 12:03:51,933 - INFO - Update id=752632586 is handled. Duration 96 ms by bot id=7676896339
+2025-05-10 12:04:17,188 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:04:17,188 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:04:17,189 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 12:04:17,190 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:04:17,191 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:04:17,192 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 12:04:17,241 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:04:17,271 - INFO - Update id=752632588 is handled. Duration 86 ms by bot id=7676896339
+2025-05-10 12:04:17,444 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 12:04:17,446 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:04:17,479 - INFO - Канал сохранён: https://t.me/yuzhny_front_ZOV (Южный фронт)
+2025-05-10 12:04:17,561 - INFO - Update id=752632587 is handled. Duration 378 ms by bot id=7676896339
+2025-05-10 12:11:30,656 - WARNING - Received SIGINT signal
+2025-05-10 12:11:30,659 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:11:30,659 - INFO - Polling stopped
+2025-05-10 12:13:30,462 - INFO - Создание таблиц в базе данных
+2025-05-10 12:13:30,466 - INFO - Start polling
+2025-05-10 12:13:30,645 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:13:42,366 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:13:42,367 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:13:42,367 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 12:13:42,370 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:13:42,370 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:13:42,370 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 12:13:42,419 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:13:42,655 - INFO - Update id=752632590 is handled. Duration 292 ms by bot id=7676896339
+2025-05-10 12:13:42,886 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 12:13:42,886 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:13:42,930 - INFO - Канал сохранён: https://t.me/rvvoenkor/91430 (Операция Z: Военкоры Русской Весны)
+2025-05-10 12:13:43,047 - INFO - Update id=752632589 is handled. Duration 685 ms by bot id=7676896339
+2025-05-10 12:18:51,607 - INFO - Обработка пересланного сообщения
+2025-05-10 12:18:51,616 - INFO - Канал сохранён: https://t.me/Mikle1On (Мир Михаила Онуфриенко)
+2025-05-10 12:18:51,698 - INFO - Update id=752632591 is handled. Duration 92 ms by bot id=7676896339
