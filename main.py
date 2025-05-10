@@ -128,60 +128,37 @@ async def handle_forwarded_from_bot(message: Message) -> None:
         bot_id = message.forward_from.id
         logging.info(f"Сообщение переслано от бота: {bot_name} (ID: {bot_id})")
 
-        # Извлечение ссылки на канал из caption_entities
+        # Извлечение последней ссылки на канал из caption_entities
+        last_channel_url = None
         if message.caption_entities:
             for entity in message.caption_entities:
                 if entity.type == "text_link" and entity.url.startswith("https://t.me/"):
-                    channel_url = entity.url
+                    last_channel_url = entity.url
+
+        if last_channel_url:
             # Получаем название канала
-            channel_name = await fetch_channel_name(channel_url)
+            channel_name = await fetch_channel_name(last_channel_url)
             async with async_session() as session:
                 try:
                     session.add(Channel(
                         channel_id=bot_id,  # Используем ID бота как временный идентификатор
-                        channel_url=channel_url,
+                        channel_url=last_channel_url,
                         channel_name=channel_name
                     ))
                     await session.commit()
                     logging.info(
-                        f"Канал сохранён: {channel_url} ({channel_name})")
-                    await message.reply(f"✅ Канал сохранён: {channel_url} ({channel_name})")
+                        f"Канал сохранён: {last_channel_url} ({channel_name})")
+                    await message.reply(f"✅ Канал сохранён: {last_channel_url} ({channel_name})")
+                    return  # Завершаем обработку после успешного сохранения
                 except Exception as e:
-                    logging.error(
-                        f"Ошибка при сохранении канала: {str(e)}")
+                    logging.error(f"Ошибка при сохранении канала: {str(e)}")
                     await session.rollback()
                     await message.reply(f"❌ Ошибка: {str(e)}")
-            return
 
-        # Извлечение ссылки на канал из текста сообщения
-        if message.entities:
-            for entity in message.entities:
-                if entity.type == "text_link" and entity.url.startswith("https://t.me/"):
-                    channel_url = entity.url
-            # Получаем название канала
-            channel_name = await fetch_channel_name(channel_url)
-            async with async_session() as session:
-                try:
-                    session.add(Channel(
-                        channel_id=bot_id,  # Используем ID бота как временный идентификатор
-                        channel_url=channel_url,
-                        channel_name=channel_name
-                    ))
-                    await session.commit()
-                    logging.info(
-                        f"Канал сохранён: {channel_url} ({channel_name})")
-                    print(message.model_dump_json(
-                        indent=4, exclude_none=True))
-                    await message.reply(f"✅ Канал сохранён: {channel_url} ({channel_name})")
-                except Exception as e:
-                    logging.error(
-                        f"Ошибка при сохранении канала: {str(e)}")
-                    await session.rollback()
-                    await message.reply(f"❌ Ошибка: {str(e)}")
-            return
-
-        logging.warning("Не удалось извлечь ссылку на канал из сообщения")
-        await message.reply("❌ Не удалось извлечь ссылку на канал из сообщения.")
+        # Если last_channel_url отсутствует, отправляем сообщение об ошибке
+        else:
+            logging.warning("Не удалось извлечь ссылку на канал из сообщения")
+            await message.reply("❌ Не удалось извлечь ссылку на канал из сообщения.")
     else:
         logging.warning("Сообщение не от бота")
         await message.reply("❌ Это сообщение не от бота.")

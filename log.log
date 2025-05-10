@@ -534,3 +534,1312 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't
 2025-05-10 12:18:51,607 - INFO - Обработка пересланного сообщения
 2025-05-10 12:18:51,616 - INFO - Канал сохранён: https://t.me/Mikle1On (Мир Михаила Онуфриенко)
 2025-05-10 12:18:51,698 - INFO - Update id=752632591 is handled. Duration 92 ms by bot id=7676896339
+2025-05-10 12:29:07,609 - WARNING - Received SIGINT signal
+2025-05-10 12:29:07,612 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:29:07,612 - INFO - Polling stopped
+2025-05-10 12:29:15,759 - INFO - Создание таблиц в базе данных
+2025-05-10 12:29:15,764 - INFO - Start polling
+2025-05-10 12:29:15,957 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:29:29,880 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:29:29,880 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:29:29,881 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 12:29:29,883 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:29:29,883 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:29:29,884 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 12:29:29,932 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:29:30,200 - INFO - Update id=752632593 is handled. Duration 326 ms by bot id=7676896339
+2025-05-10 12:29:30,334 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 12:29:30,335 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:29:30,493 - INFO - Канал сохранён: https://t.me/rvvoenkor/91430 (Операция Z: Военкоры Русской Весны)
+2025-05-10 12:29:30,623 - INFO - Update id=752632592 is handled. Duration 750 ms by bot id=7676896339
+2025-05-10 12:30:31,264 - WARNING - Received SIGINT signal
+2025-05-10 12:30:31,265 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:30:31,265 - INFO - Polling stopped
+2025-05-10 12:42:21,142 - INFO - Создание таблиц в базе данных
+2025-05-10 12:42:21,147 - INFO - Start polling
+2025-05-10 12:42:22,316 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 12:42:48,533 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:42:48,534 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:42:48,535 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 12:42:48,537 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 12:42:48,537 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 12:42:48,538 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 12:42:48,827 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:42:49,456 - INFO - Update id=752632595 is handled. Duration 927 ms by bot id=7676896339
+2025-05-10 12:42:50,980 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 12:42:50,982 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 12:42:51,045 - INFO - Канал сохранён: https://t.me/rvvoenkor/91430 (Операция Z: Военкоры Русской Весны)
+2025-05-10 12:42:51,366 - INFO - Update id=752632594 is handled. Duration 2837 ms by bot id=7676896339
+2025-05-10 12:46:23,260 - INFO - Обработка пересланного сообщения
+2025-05-10 12:46:23,266 - INFO - Канал сохранён: https://t.me/yurasumy (Мир сегодня с "Юрий Подоляка")
+2025-05-10 12:46:23,642 - INFO - Update id=752632596 is handled. Duration 382 ms by bot id=7676896339
+2025-05-10 13:05:16,050 - WARNING - Received SIGINT signal
+2025-05-10 13:05:16,052 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:05:16,053 - INFO - Polling stopped
+2025-05-10 13:05:23,694 - INFO - Создание таблиц в базе данных
+2025-05-10 13:05:23,699 - INFO - Start polling
+2025-05-10 13:05:24,809 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:05:36,095 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:05:36,095 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:05:36,096 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 13:05:36,098 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:05:36,099 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:05:36,099 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 13:05:36,375 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:05:37,062 - INFO - Update id=752632598 is handled. Duration 970 ms by bot id=7676896339
+2025-05-10 13:05:38,445 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 13:05:38,445 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:05:38,575 - INFO - Канал сохранён: https://t.me/rvvoenkor/91430 (Операция Z: Военкоры Русской Весны)
+2025-05-10 13:05:38,901 - INFO - Update id=752632597 is handled. Duration 2811 ms by bot id=7676896339
+2025-05-10 13:10:12,238 - WARNING - Received SIGINT signal
+2025-05-10 13:10:12,240 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:10:12,241 - INFO - Polling stopped
+2025-05-10 13:10:18,713 - INFO - Создание таблиц в базе данных
+2025-05-10 13:10:18,718 - INFO - Start polling
+2025-05-10 13:10:19,854 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:10:26,834 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:10:26,835 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:10:26,835 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 13:10:26,835 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:10:26,835 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:10:26,836 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 13:10:27,114 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:10:27,723 - INFO - Update id=752632600 is handled. Duration 889 ms by bot id=7676896339
+2025-05-10 13:10:29,367 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 13:10:29,367 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:10:29,391 - INFO - Канал сохранён: https://t.me/rvvoenkor/91430 (Операция Z: Военкоры Русской Весны)
+2025-05-10 13:10:29,732 - INFO - Update id=752632599 is handled. Duration 2899 ms by bot id=7676896339
+2025-05-10 13:13:57,509 - WARNING - Received SIGINT signal
+2025-05-10 13:13:57,512 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:13:57,513 - INFO - Polling stopped
+2025-05-10 13:14:04,066 - INFO - Создание таблиц в базе данных
+2025-05-10 13:14:04,073 - INFO - Start polling
+2025-05-10 13:14:05,174 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:14:10,132 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:14:10,132 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:14:10,133 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 13:14:10,133 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:14:10,134 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:14:10,134 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 13:14:10,423 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:14:11,065 - INFO - Update id=752632602 is handled. Duration 935 ms by bot id=7676896339
+2025-05-10 13:14:12,524 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 13:14:12,525 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:14:12,551 - INFO - Канал сохранён: https://t.me/rvvoenkor/91430 (Операция Z: Военкоры Русской Весны)
+2025-05-10 13:14:12,873 - INFO - Update id=752632601 is handled. Duration 2744 ms by bot id=7676896339
+2025-05-10 13:34:03,799 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:34:03,799 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:34:03,799 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 13:34:04,096 - INFO - Update id=752632603 is handled. Duration 298 ms by bot id=7676896339
+2025-05-10 13:36:07,908 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:36:07,908 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:36:07,909 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 13:36:08,179 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:36:09,138 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 13:36:09,139 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:36:09,164 - INFO - Канал сохранён: https://t.me/alekhin_telega/13798 (Роман Алехин)
+2025-05-10 13:36:09,645 - INFO - Update id=752632604 is handled. Duration 1737 ms by bot id=7676896339
+2025-05-10 13:36:44,568 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:36:44,568 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:36:44,568 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 13:36:44,840 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:36:45,770 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 13:36:45,770 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:36:45,906 - INFO - Канал сохранён: https://t.me/mardanaka/32275 (МАРДАН)
+2025-05-10 13:36:46,276 - INFO - Update id=752632605 is handled. Duration 1708 ms by bot id=7676896339
+2025-05-10 13:37:02,698 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:37:02,698 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:37:02,698 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 13:37:03,031 - INFO - Update id=752632606 is handled. Duration 334 ms by bot id=7676896339
+2025-05-10 13:38:50,217 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:38:50,217 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:38:50,217 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 13:38:50,489 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:38:51,373 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 13:38:51,374 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 13:38:51,405 - INFO - Канал сохранён: https://t.me/absatzmedia/129662 (Абзац)
+2025-05-10 13:38:51,779 - INFO - Update id=752632607 is handled. Duration 1564 ms by bot id=7676896339
+2025-05-10 13:48:57,766 - INFO - Обработка пересланного сообщения
+2025-05-10 13:48:57,785 - INFO - Канал сохранён: https://t.me/infantmilitario (Милитарист)
+2025-05-10 13:48:58,692 - INFO - Update id=752632608 is handled. Duration 928 ms by bot id=7676896339
+2025-05-10 13:55:15,645 - WARNING - Received SIGINT signal
+2025-05-10 13:55:15,646 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:55:15,646 - INFO - Polling stopped
+2025-05-10 13:55:38,417 - INFO - Создание таблиц в базе данных
+2025-05-10 13:55:38,422 - INFO - Start polling
+2025-05-10 13:55:39,568 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:56:01,577 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:56:01,577 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:56:01,577 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 13:56:02,555 - INFO - Update id=752632609 is not handled. Duration 979 ms by bot id=7676896339
+2025-05-10 13:56:02,555 - ERROR - Cause exception while process update id=752632609 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 162, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 13:57:30,867 - WARNING - Received SIGINT signal
+2025-05-10 13:57:30,870 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:57:30,871 - INFO - Polling stopped
+2025-05-10 13:57:37,651 - INFO - Создание таблиц в базе данных
+2025-05-10 13:57:37,656 - INFO - Start polling
+2025-05-10 13:57:38,780 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:58:17,694 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:58:17,694 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:58:17,696 - INFO - Update id=752632610 is not handled. Duration 5 ms by bot id=7676896339
+2025-05-10 13:58:17,697 - ERROR - Cause exception while process update id=752632610 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 160, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 13:59:06,233 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:59:06,233 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:59:06,235 - INFO - Update id=752632611 is not handled. Duration 4 ms by bot id=7676896339
+2025-05-10 13:59:06,236 - ERROR - Cause exception while process update id=752632611 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 160, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 13:59:28,581 - WARNING - Received SIGINT signal
+2025-05-10 13:59:28,584 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:59:28,584 - INFO - Polling stopped
+2025-05-10 13:59:45,939 - INFO - Создание таблиц в базе данных
+2025-05-10 13:59:45,944 - INFO - Start polling
+2025-05-10 13:59:46,128 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 13:59:54,260 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 13:59:54,260 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 13:59:54,260 - INFO - Update id=752632612 is not handled. Duration 1 ms by bot id=7676896339
+2025-05-10 13:59:54,261 - ERROR - Cause exception while process update id=752632612 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 160, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:00:58,772 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:00:58,772 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:00:58,773 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:00:58,826 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:00:59,329 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:00:59,331 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:00:59,380 - INFO - Канал сохранён: https://t.me/mardanaka/32275 (МАРДАН)
+2025-05-10 14:00:59,616 - INFO - Update id=752632613 is handled. Duration 846 ms by bot id=7676896339
+2025-05-10 14:01:14,212 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:01:14,213 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:01:14,214 - INFO - Update id=752632614 is not handled. Duration 4 ms by bot id=7676896339
+2025-05-10 14:01:14,214 - ERROR - Cause exception while process update id=752632614 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 160, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:01:54,369 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:01:54,369 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:01:54,369 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:01:54,419 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:01:54,639 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:01:54,640 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:01:54,667 - INFO - Канал сохранён: https://t.me/kukufffka/5801 (Kukufffka карикатуры)
+2025-05-10 14:01:54,809 - INFO - Update id=752632615 is handled. Duration 441 ms by bot id=7676896339
+2025-05-10 14:02:08,916 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:02:08,917 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:02:08,918 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:02:08,968 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:02:09,184 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:02:09,185 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:02:09,310 - INFO - Канал сохранён: https://t.me/absatzmedia/129662 (Абзац)
+2025-05-10 14:02:09,445 - INFO - Update id=752632616 is handled. Duration 532 ms by bot id=7676896339
+2025-05-10 14:02:29,596 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:02:29,596 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:02:29,596 - INFO - Update id=752632617 is not handled. Duration 2 ms by bot id=7676896339
+2025-05-10 14:02:29,597 - ERROR - Cause exception while process update id=752632617 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 160, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:04:49,696 - WARNING - Received SIGINT signal
+2025-05-10 14:04:49,697 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:04:49,697 - INFO - Polling stopped
+2025-05-10 14:04:56,806 - INFO - Создание таблиц в базе данных
+2025-05-10 14:04:56,811 - INFO - Start polling
+2025-05-10 14:04:57,002 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:05:22,112 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:05:22,112 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:05:22,114 - INFO - Update id=752632618 is not handled. Duration 5 ms by bot id=7676896339
+2025-05-10 14:05:22,114 - ERROR - Cause exception while process update id=752632618 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 130, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:07:56,170 - WARNING - Received SIGINT signal
+2025-05-10 14:07:56,171 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:07:56,171 - INFO - Polling stopped
+2025-05-10 14:08:02,597 - INFO - Создание таблиц в базе данных
+2025-05-10 14:08:02,602 - INFO - Start polling
+2025-05-10 14:08:02,790 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:08:11,944 - INFO - Update id=752632619 is not handled. Duration 0 ms by bot id=7676896339
+2025-05-10 14:08:11,944 - ERROR - Cause exception while process update id=752632619 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 97, in handle_all
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:09:01,506 - INFO - Update id=752632620 is handled. Duration 1 ms by bot id=7676896339
+2025-05-10 14:12:12,879 - INFO - Update id=752632621 is not handled. Duration 1 ms by bot id=7676896339
+2025-05-10 14:12:12,880 - ERROR - Cause exception while process update id=752632621 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 97, in handle_all
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:12:24,763 - INFO - Update id=752632622 is not handled. Duration 2 ms by bot id=7676896339
+2025-05-10 14:12:24,763 - ERROR - Cause exception while process update id=752632622 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 97, in handle_all
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:13:15,343 - INFO - Update id=752632623 is handled. Duration 1 ms by bot id=7676896339
+2025-05-10 14:14:09,249 - WARNING - Received SIGINT signal
+2025-05-10 14:14:09,252 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:14:09,252 - INFO - Polling stopped
+2025-05-10 14:23:17,376 - INFO - Создание таблиц в базе данных
+2025-05-10 14:23:17,381 - INFO - Start polling
+2025-05-10 14:23:18,489 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:23:18,771 - INFO - Update id=752632624 is not handled. Duration 0 ms by bot id=7676896339
+2025-05-10 14:23:18,771 - ERROR - Cause exception while process update id=752632624 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 97, in handle_all
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:23:27,502 - INFO - Update id=752632625 is handled. Duration 1 ms by bot id=7676896339
+2025-05-10 14:23:53,469 - INFO - Update id=752632626 is not handled. Duration 1 ms by bot id=7676896339
+2025-05-10 14:23:53,470 - ERROR - Cause exception while process update id=752632626 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 97, in handle_all
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:25:40,308 - WARNING - Received SIGINT signal
+2025-05-10 14:25:40,314 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:25:40,314 - INFO - Polling stopped
+2025-05-10 14:25:46,875 - INFO - Создание таблиц в базе данных
+2025-05-10 14:25:46,880 - INFO - Start polling
+2025-05-10 14:25:47,948 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:25:56,010 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:25:56,010 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:25:56,011 - INFO - Update id=752632627 is not handled. Duration 2 ms by bot id=7676896339
+2025-05-10 14:25:56,011 - ERROR - Cause exception while process update id=752632627 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 135, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:26:24,849 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:26:24,850 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:26:24,853 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:26:25,127 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:26:27,623 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:26:27,625 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:26:27,673 - INFO - Канал сохранён: https://t.me/wargonzo/26434 (WarGonzo)
+2025-05-10 14:26:28,670 - INFO - Update id=752632628 is handled. Duration 3824 ms by bot id=7676896339
+2025-05-10 14:27:01,627 - INFO - Обработка пересланного сообщения
+2025-05-10 14:27:01,644 - INFO - Канал сохранён: https://t.me/Mikle1On (Мир Михаила Онуфриенко)
+2025-05-10 14:27:01,961 - INFO - Update id=752632629 is handled. Duration 336 ms by bot id=7676896339
+2025-05-10 14:27:23,527 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:27:23,528 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:27:23,529 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:27:23,531 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:27:23,532 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:27:23,533 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:27:23,537 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:27:23,537 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:27:23,538 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:27:23,543 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:27:23,543 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:27:23,545 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:27:23,550 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:27:23,550 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:27:23,551 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:27:23,554 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:27:23,555 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:27:23,555 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:27:23,803 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:27:23,840 - INFO - Update id=752632631 is handled. Duration 325 ms by bot id=7676896339
+2025-05-10 14:27:24,399 - INFO - Update id=752632634 is handled. Duration 880 ms by bot id=7676896339
+2025-05-10 14:27:24,432 - INFO - Update id=752632632 is handled. Duration 915 ms by bot id=7676896339
+2025-05-10 14:27:24,447 - INFO - Update id=752632635 is handled. Duration 926 ms by bot id=7676896339
+2025-05-10 14:27:24,470 - INFO - Update id=752632633 is handled. Duration 952 ms by bot id=7676896339
+2025-05-10 14:27:24,703 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:27:24,705 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:27:24,745 - INFO - Канал сохранён: https://t.me/pokolenie_zov/25399 (Поколение “ZOV”)
+2025-05-10 14:27:25,092 - INFO - Update id=752632630 is handled. Duration 1578 ms by bot id=7676896339
+2025-05-10 14:32:44,318 - WARNING - Received SIGINT signal
+2025-05-10 14:32:44,319 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:32:44,319 - INFO - Polling stopped
+2025-05-10 14:32:52,901 - INFO - Создание таблиц в базе данных
+2025-05-10 14:32:52,910 - INFO - Start polling
+2025-05-10 14:32:53,951 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:32:59,570 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:32:59,570 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:32:59,572 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:32:59,847 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:33:02,074 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:33:02,075 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:33:02,109 - INFO - Канал сохранён: https://t.me/mardanaka/32275 (МАРДАН)
+2025-05-10 14:33:03,031 - INFO - Update id=752632636 is handled. Duration 3464 ms by bot id=7676896339
+2025-05-10 14:33:12,425 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:33:12,425 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:33:12,427 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:33:12,696 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:33:13,535 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:33:13,536 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:33:13,575 - INFO - Канал сохранён: https://t.me/kukufffka/5801 (Kukufffka карикатуры)
+2025-05-10 14:33:13,948 - INFO - Update id=752632637 is handled. Duration 1526 ms by bot id=7676896339
+2025-05-10 14:33:19,837 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:33:19,837 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:33:19,839 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:33:20,112 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:33:21,144 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:33:21,145 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:33:21,176 - INFO - Канал сохранён: https://t.me/absatzmedia/129662 (Абзац)
+2025-05-10 14:33:21,553 - INFO - Update id=752632638 is handled. Duration 1718 ms by bot id=7676896339
+2025-05-10 14:33:32,294 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:33:32,294 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:33:32,295 - INFO - Update id=752632639 is not handled. Duration 4 ms by bot id=7676896339
+2025-05-10 14:33:32,295 - ERROR - Cause exception while process update id=752632639 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 135, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:34:32,073 - WARNING - Received SIGINT signal
+2025-05-10 14:34:32,075 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:34:32,078 - INFO - Polling stopped
+2025-05-10 14:34:39,904 - INFO - Создание таблиц в базе данных
+2025-05-10 14:34:39,910 - INFO - Start polling
+2025-05-10 14:34:40,999 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:34:48,982 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:34:48,982 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:34:48,984 - INFO - Update id=752632640 is not handled. Duration 5 ms by bot id=7676896339
+2025-05-10 14:34:48,984 - ERROR - Cause exception while process update id=752632640 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 135, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:36:09,184 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:36:09,184 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:36:09,185 - INFO - Update id=752632641 is not handled. Duration 3 ms by bot id=7676896339
+2025-05-10 14:36:09,185 - ERROR - Cause exception while process update id=752632641 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 135, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:37:10,911 - WARNING - Received SIGINT signal
+2025-05-10 14:37:10,912 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:37:10,912 - INFO - Polling stopped
+2025-05-10 14:37:20,524 - INFO - Создание таблиц в базе данных
+2025-05-10 14:37:20,530 - INFO - Start polling
+2025-05-10 14:37:20,728 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:37:31,228 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:37:31,229 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:37:31,230 - INFO - Update id=752632642 is not handled. Duration 3 ms by bot id=7676896339
+2025-05-10 14:37:31,230 - ERROR - Cause exception while process update id=752632642 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 135, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:37:43,877 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:37:43,877 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:37:43,879 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:37:43,930 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:37:44,332 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:37:44,333 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:37:44,368 - INFO - Канал сохранён: https://t.me/wargonzo/26434 (WarGonzo)
+2025-05-10 14:37:44,582 - INFO - Update id=752632643 is handled. Duration 708 ms by bot id=7676896339
+2025-05-10 14:40:25,228 - WARNING - Received SIGINT signal
+2025-05-10 14:40:25,233 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:40:25,234 - INFO - Polling stopped
+2025-05-10 14:40:33,292 - INFO - Создание таблиц в базе данных
+2025-05-10 14:40:33,297 - INFO - Start polling
+2025-05-10 14:40:33,483 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:40:57,581 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:40:57,581 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:40:57,581 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:40:57,582 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:40:57,582 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:40:57,582 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:40:57,583 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:40:57,584 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:40:57,584 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:40:57,585 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:40:57,585 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:40:57,585 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:40:57,586 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:40:57,587 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:40:57,587 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:40:57,588 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:40:57,588 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:40:57,588 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:40:57,631 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:40:57,799 - INFO - Update id=752632645 is handled. Duration 221 ms by bot id=7676896339
+2025-05-10 14:40:57,821 - INFO - Update id=752632646 is handled. Duration 243 ms by bot id=7676896339
+2025-05-10 14:40:57,860 - INFO - Update id=752632648 is handled. Duration 282 ms by bot id=7676896339
+2025-05-10 14:40:57,872 - INFO - Update id=752632649 is handled. Duration 293 ms by bot id=7676896339
+2025-05-10 14:40:57,893 - INFO - Update id=752632647 is handled. Duration 314 ms by bot id=7676896339
+2025-05-10 14:40:58,273 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:40:58,275 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:40:58,328 - INFO - Канал сохранён: https://t.me/pokolenie_zov/25399 (Поколение “ZOV”)
+2025-05-10 14:40:58,429 - INFO - Update id=752632644 is handled. Duration 852 ms by bot id=7676896339
+2025-05-10 14:43:21,408 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:21,408 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:21,409 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:43:21,460 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:43:21,650 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:43:21,651 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:43:21,679 - INFO - Канал сохранён: https://t.me/tsargradtv/105958 (Царьград ТВ)
+2025-05-10 14:43:21,808 - INFO - Update id=752632650 is handled. Duration 402 ms by bot id=7676896339
+2025-05-10 14:43:44,554 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,555 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,556 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-10 14:43:44,557 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,558 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,558 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,561 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,561 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,562 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,564 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,565 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,565 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,569 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,569 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,569 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,573 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,573 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,573 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,576 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,576 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,576 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,578 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,578 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,578 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,582 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,583 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,583 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,585 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:43:44,585 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:43:44,585 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:43:44,606 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:43:44,635 - INFO - Update id=752632652 is handled. Duration 99 ms by bot id=7676896339
+2025-05-10 14:43:44,798 - INFO - Update id=752632655 is handled. Duration 256 ms by bot id=7676896339
+2025-05-10 14:43:44,814 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-10 14:43:44,817 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-10 14:43:44,852 - INFO - Update id=752632657 is handled. Duration 306 ms by bot id=7676896339
+2025-05-10 14:43:44,861 - INFO - Канал сохранён: https://t.me/boris_rozhin/164236 (Colonelcassad)
+2025-05-10 14:43:44,884 - INFO - Update id=752632659 is handled. Duration 336 ms by bot id=7676896339
+2025-05-10 14:43:44,909 - INFO - Update id=752632656 is handled. Duration 364 ms by bot id=7676896339
+2025-05-10 14:43:44,943 - INFO - Update id=752632660 is handled. Duration 394 ms by bot id=7676896339
+2025-05-10 14:43:44,963 - INFO - Update id=752632653 is handled. Duration 426 ms by bot id=7676896339
+2025-05-10 14:43:44,995 - INFO - Update id=752632654 is handled. Duration 454 ms by bot id=7676896339
+2025-05-10 14:43:45,016 - INFO - Update id=752632658 is handled. Duration 469 ms by bot id=7676896339
+2025-05-10 14:43:45,048 - INFO - Update id=752632651 is handled. Duration 513 ms by bot id=7676896339
+2025-05-10 14:44:04,453 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-10 14:44:04,453 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-10 14:44:04,455 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-10 14:44:04,529 - INFO - Update id=752632661 is not handled. Duration 77 ms by bot id=7676896339
+2025-05-10 14:44:04,529 - ERROR - Cause exception while process update id=752632661 by bot id=7676896339
+PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+Traceback (most recent call last):
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/main.py", line 167, in handle_forwarded_from_bot
+    print(message.model_dump_json(indent=4, exclude_none=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oleg/MyStudy/channels_collector/.venv/lib/python3.12/site-packages/pydantic/main.py", line 519, in model_dump_json
+    return self.__pydantic_serializer__.to_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unknown type: <class 'aiogram.client.default.Default'>
+2025-05-10 14:51:26,997 - INFO - Запрос списка названий каналов
+2025-05-10 14:51:27,016 - INFO - Список названий каналов отправлен
+2025-05-10 14:51:27,093 - INFO - Update id=752632662 is handled. Duration 98 ms by bot id=7676896339
+2025-05-10 14:51:52,598 - INFO - Запрос списка url каналов
+2025-05-10 14:51:52,602 - INFO - Список url каналов отправлен
+2025-05-10 14:51:52,711 - INFO - Update id=752632663 is handled. Duration 113 ms by bot id=7676896339
+2025-05-10 14:54:42,317 - WARNING - Received SIGINT signal
+2025-05-10 14:54:42,319 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-10 14:54:42,323 - INFO - Polling stopped

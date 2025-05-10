@@ -1,3 +1,4 @@
 auth
 .venv
 .env
+channels.db
