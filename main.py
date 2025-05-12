@@ -17,7 +17,7 @@ from telethon import TelegramClient
 # Настройка логирования
 logging.basicConfig(
     filename='log.log',
-    level=logging.INFO,
+    level=logging.ERROR,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 

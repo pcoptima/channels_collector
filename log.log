@@ -1856,3 +1856,127 @@ pydantic_core._pydantic_core.PydanticSerializationError: Unable to serialize unk
 2025-05-10 15:50:08,864 - WARNING - Received SIGINT signal
 2025-05-10 15:50:08,868 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
 2025-05-10 15:50:08,868 - INFO - Polling stopped
+2025-05-12 10:56:21,778 - INFO - Создание таблиц в базе данных
+2025-05-12 10:56:21,781 - INFO - Start polling
+2025-05-12 10:56:21,974 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-12 10:56:22,086 - INFO - Обработка пересланного сообщения
+2025-05-12 10:56:22,092 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 10:56:22,092 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 10:56:22,092 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-12 10:56:22,100 - INFO - Канал сохранён: https://t.me/yurasumy (Мир сегодня с "Юрий Подоляка")
+2025-05-12 10:56:22,143 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-12 10:56:22,555 - INFO - Update id=752632667 is handled. Duration 470 ms by bot id=7676896339
+2025-05-12 10:56:22,572 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-12 10:56:22,572 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-12 10:56:22,584 - INFO - Канал сохранён: https://t.me/readovkanews/96243 (Readovka)
+2025-05-12 10:56:22,725 - INFO - Update id=752632668 is handled. Duration 640 ms by bot id=7676896339
+2025-05-12 10:59:24,938 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 10:59:24,939 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 10:59:24,939 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-12 10:59:25,176 - INFO - Update id=752632669 is handled. Duration 238 ms by bot id=7676896339
+2025-05-12 10:59:58,225 - INFO - Обработка пересланного сообщения
+2025-05-12 10:59:58,229 - ERROR - Ошибка при сохранении канала: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: INSERT INTO channels (channel_id, channel_url, channel_name, timestamp) VALUES (?, ?, ?, ?)]
+[parameters: (-1001513431778, 'https://t.me/dva_majors', 'Два майора', '2025-05-12 07:59:58.227246')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-12 10:59:58,325 - INFO - Update id=752632670 is handled. Duration 100 ms by bot id=7676896339
+2025-05-12 11:02:49,114 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 11:02:49,116 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 11:03:00,964 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 11:04:27,565 - INFO - Обработка пересланного сообщения
+2025-05-12 11:04:27,566 - ERROR - Ошибка при сохранении канала: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: INSERT INTO channels (channel_id, channel_url, channel_name, timestamp) VALUES (?, ?, ?, ?)]
+[parameters: (-1001513431778, 'https://t.me/dva_majors', 'Два майора', '2025-05-12 08:04:27.566266')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-12 11:04:28,704 - INFO - Update id=752632671 is handled. Duration 1139 ms by bot id=7676896339
+2025-05-12 11:09:55,639 - WARNING - Received SIGTERM signal
+2025-05-12 11:09:55,640 - INFO - Polling stopped for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-12 11:09:55,640 - INFO - Polling stopped
+2025-05-12 11:09:58,434 - INFO - Создание таблиц в базе данных
+2025-05-12 11:09:58,442 - INFO - Start polling
+2025-05-12 11:09:59,485 - INFO - Run polling for bot @channels_collector_bot id=7676896339 - 'Мой сборщик каналов'
+2025-05-12 11:10:32,095 - INFO - Обработка пересланного сообщения
+2025-05-12 11:10:32,103 - INFO - Канал сохранён: https://t.me/dva_majors (Два майора)
+2025-05-12 11:10:33,294 - INFO - Update id=752632672 is handled. Duration 1199 ms by bot id=7676896339
+2025-05-12 11:12:13,112 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 11:12:13,114 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 11:12:24,262 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 11:19:35,534 - INFO - Обработка пересланного сообщения
+2025-05-12 11:19:35,543 - INFO - Канал сохранён: https://t.me/vzglyad_ru (V Z - ВЗГЛЯД.РУ)
+2025-05-12 11:19:35,736 - INFO - Update id=752632673 is handled. Duration 202 ms by bot id=7676896339
+2025-05-12 11:20:13,865 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 11:20:13,865 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 11:20:13,865 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-12 11:20:13,917 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:20:14,357 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-12 11:20:14,357 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:20:14,372 - INFO - Канал сохранён: https://t.me/infantmilitario/155306 (Милитарист)
+2025-05-12 11:20:14,474 - INFO - Update id=752632674 is handled. Duration 609 ms by bot id=7676896339
+2025-05-12 11:43:56,136 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 11:43:56,136 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 11:43:56,136 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-12 11:43:56,181 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:43:56,356 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-12 11:43:56,356 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:43:56,367 - INFO - Канал сохранён: https://t.me/gardez66/13216 (ШЕЙНИН)
+2025-05-12 11:43:56,560 - INFO - Update id=752632675 is handled. Duration 425 ms by bot id=7676896339
+2025-05-12 11:44:23,612 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 11:44:23,612 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 11:44:23,612 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-12 11:44:23,663 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:44:23,907 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-12 11:44:23,908 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:44:23,919 - INFO - Канал сохранён: https://t.me/tsargradtv/106067 (Царьград ТВ)
+2025-05-12 11:44:24,005 - INFO - Update id=752632676 is handled. Duration 393 ms by bot id=7676896339
+2025-05-12 11:46:04,002 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 11:46:04,002 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 11:46:04,003 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-12 11:46:04,213 - INFO - Update id=752632677 is handled. Duration 211 ms by bot id=7676896339
+2025-05-12 11:46:20,417 - INFO - Обработка пересланного сообщения
+2025-05-12 11:46:20,423 - INFO - Канал сохранён: https://t.me/rusengineer (Русский инженер)
+2025-05-12 11:46:20,556 - INFO - Update id=752632678 is handled. Duration 138 ms by bot id=7676896339
+2025-05-12 11:47:13,651 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 11:47:13,651 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 11:47:13,651 - WARNING - Не удалось извлечь ссылку на канал из сообщения
+2025-05-12 11:47:13,729 - INFO - Update id=752632679 is handled. Duration 78 ms by bot id=7676896339
+2025-05-12 11:47:25,393 - INFO - Обработка пересланного сообщения
+2025-05-12 11:47:25,399 - INFO - Канал сохранён: https://t.me/SergeyKolyasnikov (ZERGULIO🇷🇺)
+2025-05-12 11:47:25,483 - INFO - Update id=752632680 is handled. Duration 89 ms by bot id=7676896339
+2025-05-12 11:47:51,051 - INFO - Обработка пересланного сообщения от другого бота
+2025-05-12 11:47:51,052 - INFO - Сообщение переслано от бота: junction_bot (ID: 374139448)
+2025-05-12 11:47:51,052 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-05-12 11:47:51,098 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:47:51,282 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-05-12 11:47:51,283 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-05-12 11:47:51,294 - INFO - Канал сохранён: https://t.me/anna_news/79756 (ANNA NEWS)
+2025-05-12 11:47:51,434 - INFO - Update id=752632681 is handled. Duration 383 ms by bot id=7676896339
+2025-05-12 12:21:13,148 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 12:21:13,148 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 12:21:25,263 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 12:22:36,139 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 12:22:36,139 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 12:22:47,299 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 13:19:59,147 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:19:59,147 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 13:20:11,157 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 13:27:21,157 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:27:21,157 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 13:27:32,303 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 13:28:53,154 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:28:53,154 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 13:29:05,075 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 13:30:26,154 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:30:26,154 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 13:30:37,317 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 13:40:11,147 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:40:11,147 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 13:40:23,019 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 13:45:40,147 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:45:40,147 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 13:45:51,304 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 13:52:33,158 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:52:33,158 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 13:52:45,069 - INFO - Connection established (tryings = 1, bot id = 7676896339)
+2025-05-12 14:01:50,147 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 14:01:50,147 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7676896339)
+2025-05-12 14:02:01,294 - INFO - Connection established (tryings = 1, bot id = 7676896339)

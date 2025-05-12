@@ -3,3 +3,4 @@ auth
 .env
 channels.db
 log.log
+channel_fetcher.session
